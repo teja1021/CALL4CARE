@@ -24,12 +24,12 @@ export default async function Header() {
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-10 supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 cursor-pointer">
-          <Image
+           <Image
             src="/Call4Care.png"
             alt="CALL4CARE Logo"
-            width={200}
-            height={60}
-            className="h-10 w-auto object-contain"
+            width={280}
+            height={80}
+            className="h-14 w-auto object-contain"
           />
         </Link>
 
